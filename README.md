@@ -6,9 +6,16 @@ The library Scikit-learn was used for implementing classification algorithms (SV
 From the sklearn library, the SVC class was used for the Support Vector Machine Classification, the class MLPClassifier was used for the Neural Network classifier. The SpectralClustering class and the KMeans class were used for their respective clustering algorithms. The GaussianMixture class was used to implement the Gaussian mixture model algorithm. The KFolds class was used to create a k-folds cross-validation algorithm. The mlxtend library is a library built on matplotlib. It was used to draw the decision boundaries for the classification algorithms.
 
 ## Results
+### KMeans Clustering
 ![K Means Clustering](https://github.com/prchandr/Classification-and-Clustering/blob/main/images/kMeansClustering.png?raw=true)
+
+### Spectral Clustering
 ![Spectral Clustering](https://github.com/prchandr/Classification-and-Clustering/blob/main/images/spectralClustering.png?raw=true)
+
+### Neural Net Boundaries
 ![Neural Net Boundary](https://github.com/prchandr/Classification-and-Clustering/blob/main/images/neuralNetBoundaries.png?raw=true)
+
+### Support Vector Machine Boundaries
 ![SVM Boundary](https://github.com/prchandr/Classification-and-Clustering/blob/main/images/svmBoundaries.png?raw=true)
 
 ## Dependencies
