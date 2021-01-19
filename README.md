@@ -1,4 +1,4 @@
-# Classification-and-Clustering
+# Classification and Clustering
 ### ENEE436 Project 2
 
 The library Scikit-learn was used for implementing classification algorithms (SVMs and Neural Nets) and clustering algorithms (K-means and Spectral Clustering). Cross validation was used to get more representative test accuracies to determine optimal parameters for certain algorithms. Cross validation was implemented by combining the given training and testing data sets, using sklearn’s KFold method to randomly assign data points to a certain number of folds. After using each fold to train the model and using the remaining folds as the test set, the average test score would provide a more accurate metric for determining how well the model would behave. This was used to determine optimal parameters for both the SVM and Neural Net algorithms. The data sets provided were Banana, Twonorm, Waveform, two_spirals, crescent_and_the_full_moon, and cluster_within_cluster. The last three were provided as .mat files, which needed to be read using scipy instead of as raw data.
